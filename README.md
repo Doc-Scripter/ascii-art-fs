@@ -70,6 +70,44 @@ go run . "さようなら"
 ```
 the output will be: "Not an ascii character"
 
+
+## Banner file switch
+If you look at the Resources file it contains a series of banner files that can be used to provide the various types of formats in which you want to print the word. We have handled a set of banner files including 
+* standard
+``` 
+ _    _          _   _          $
+| |  | |        | | | |         $
+| |__| |   ___  | | | |   ___   $
+|  __  |  / _ \ | | | |  / _ \  $
+| |  | | |  __/ | | | | | (_) | $
+|_|  |_|  \___| |_| |_|  \___/  $
+                                $
+                                $
+```
+
+ * thinkertoy
+```
+                 $
+o        o o     $
+|        | |     $
+O--o o-o | | o-o $
+|  | |-' | | | | $
+o  o o-o o o o-o $
+                 $
+                 $
+```
+* shadow
+```
+                                 $
+_|                _| _|          $
+_|_|_|     _|_|   _| _|   _|_|   $
+_|    _| _|_|_|_| _| _| _|    _| $
+_|    _| _|       _| _| _|    _| $
+_|    _|   _|_|_| _| _|   _|_|   $
+                                 $
+                                 $
+```
+
 ## Contribution
 
 Pull request are accepted
