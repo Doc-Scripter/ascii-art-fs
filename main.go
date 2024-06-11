@@ -4,27 +4,53 @@ import (
 	"fmt"
 	"os"
 
-	a "ascii/functions"
+	asciiArt "ascii/functions"
 )
 
 func main() {
-	l := len(os.Args)
-	if l < 2 {
-		fmt.Println("Enter message to be printed")
+	args := len(os.Args)
+	if args < 2 || args > 3{
+		fmt.Println("Usage: go run . [STRING] [BANNER]\nEX: go run . something standard")
 		return
 	}
 
-	s, err := os.ReadFile("standard.txt")
-	// confirms if the file used is available
-	if err != nil {
-		// confirms if all the lines on the ascii art file are there
-
-		fmt.Println("File not found")
-		return
+	//if only the string to be printed is provided
+	if args == 2 {
+		s, err := os.ReadFile("Resources/standard.txt")
+		if err != nil {			
+			fmt.Println("File not found")
+			return
+		}
+		m := asciiArt.AsciiArt(string(s))
+		res := asciiArt.Tab(os.Args[1])
+		asciiArt.Paragraph(res, m)
 	}
 	
+	//if the string to be printed is provided and also the bannerfile
+	if args == 3 {
+		file := os.Args[2]
+		switch file {
+		case "standard":
+			file = "Resources/standard.txt"
+		case "thinkertoy":
+			file = "Resources/thinkertoy.txt"
+		case "shadow":
+			file = "Resources/shadow.txt"
+		default:
+			file = "Resources/standard.txt"
+		}
 
-	m := a.AsciiArt(string(s))
-	res := a.Tab(os.Args[1])
-	a.Paragraph(res, m)
+		s, err := os.ReadFile(file)		
+		if err != nil {			
+			fmt.Println("File not found")
+			return
+		}
+		m := asciiArt.AsciiArt(string(s))
+		res := asciiArt.Tab(os.Args[1])
+		asciiArt.Paragraph(res, m)
+
+
+	}
+	
 }
+
