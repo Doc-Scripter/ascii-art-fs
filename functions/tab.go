@@ -1,6 +1,6 @@
 package ascii
 
-//Tab handles the control character /t which print double space
+// Tab handles the control character /t which print double space
 func Tab(s string) string {
 	stringLength := len(s)
 	result := ""
@@ -15,4 +15,3 @@ func Tab(s string) string {
 	}
 	return result
 }
-
