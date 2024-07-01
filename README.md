@@ -73,6 +73,8 @@ the output will be: "Not an ascii character"
 
 ## Banner file switch
 If you look at the Resources file it contains a series of banner files that can be used to provide the various types of formats in which you want to print the word. We have handled a set of banner files including 
+
+
 * standard
 ``` 
  _    _          _   _          $
@@ -107,7 +109,50 @@ _|    _|   _|_|_| _| _|   _|_|   $
                                  $
                                  $
 ```
+* ac(our bannerfile)
+```
+                                 $
+AC                AC AC          $
+ACACAC     ACAC   AC AC   ACAC   $
+AC    AC ACACACAC AC AC AC    AC $
+AC    AC AC       AC AC AC    AC $
+AC    AC   ACACA  AC AC   ACAC   $
+                                 $
+                                 $
+```
+
+Here is how you run the command;
+```bash
+go run . "Desired string" bannerfile
+```
+Example:
+```bash
+go run . "Test run" thinkertoy
+```
+Output:
+```bash
+                                      
+o-O-o          o                      
+  |            |                      
+  |   o-o o-o -o-       o-o o  o o-o  
+  |   |-'  \   |        |   |  | |  | 
+  o   o-o o-o  o        o   o--o o  o 
+                                      
+                                      
+```
 
 ## Contribution
 
-Pull request are accepted
+<div style="display: flex; justify-content: space-around; align-items: center;">
+<div style ="text-align: center; margin: 10px;">
+</div>
+
+### Clifford Otieno
+![Cliff's Profile Photo](https://learn.zone01kisumu.ke/git/avatars/7c3793c3fac1a5908d1646d153555890?size=870)
+
+### Arnold Odero
+![Arnold's Profile Photo](https://learn.zone01kisumu.ke/git/avatars/3b0994024734dea36638192cb212b8f1?size=870)
+
+### Wilfred Njuguna
+![Wilfred's Profile Photo](https://learn.zone01kisumu.ke/git/avatars/c9b7b96426b4781d5a16fef462551fb5?size=870)
+
