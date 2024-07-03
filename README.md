@@ -2,7 +2,7 @@
 
 ## Overview
 
-Ascii-art is a program that renders input text strings into ASCII art representations. Transform your simple text into an exciting visual that stands out in any plain text environment.
+Ascii-art is a Golang  program that renders input text strings into ASCII art representations. Transform your simple text into an exciting visual that stands out in any plain text environment.
 
 ## Objectives
 
