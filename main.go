@@ -30,10 +30,15 @@ func main() {
 	if args == 3 {
 		file := os.Args[2]
 
-		if !(file == "standard" || file == "thinkertoy" || file == "shadow" || file == "ac") {
-			fmt.Println("Usage: go run . [STRING] [BANNER]\n\nEX: go run . something standard")
-			return
-		}
+		banners := []string{"standard", "thinkertoy", "shadow"}
+				for i := range banners {
+					if file != banners[i] && i == len(banners)-1 {
+						fmt.Println("Usage: go run . [STRING] [BANNER]\n\nEX: go run . something standard")
+						return
+					} else if file == banners[i] {
+						break
+					}
+				}
 		switch file {
 		case "standard":
 			file = "resources/standard.txt"
@@ -46,7 +51,7 @@ func main() {
 		default:
 			file = "resources/standard.txt"
 		}
-
+		asciiArt.Checkfiles(file)
 		s, err := os.ReadFile(file)
 		if err != nil {
 			fmt.Println("File not found")
