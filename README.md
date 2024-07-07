@@ -2,7 +2,7 @@
 
 ## Overview
 
-Ascii-art is a Golang  program that renders input text strings into ASCII art representations. Transform your simple text into an exciting visual that stands out in any plain text environment.
+This is a Golang  program that renders input text strings into ASCII art representations. Transform your simple text into an exciting visual that stands out in any plain text environment.
 
 ## Objectives
 
@@ -70,7 +70,7 @@ the output will be: "Not an ascii character"
 
 
 ## Banner file switch
-If you look at the Resources file it contains a series of banner files that can be used to provide the various types of formats in which you want to print the word. We have handled a set of banner files including 
+If you look at the resources folder it contains banner files that can be used to provide the various types of formats in which you want to print the word. We have handled a set of banner files including 
 
 
 * standard
@@ -145,12 +145,12 @@ o-O-o          o
 <div style ="text-align: center; margin: 10px;">
 </div>
 
-### Clifford Otieno
+### [Clifford Otieno](https://learn.zone01kisumu.ke/git/cliffootieno)
 ![Cliff's Profile Photo](https://learn.zone01kisumu.ke/git/avatars/7c3793c3fac1a5908d1646d153555890?size=870)
 
-### Arnold Odero
+### [Arnold Odero](https://learn.zone01kisumu.ke/git/aadero)
 ![Arnold's Profile Photo](https://learn.zone01kisumu.ke/git/avatars/3b0994024734dea36638192cb212b8f1?size=870)
 
-### Wilfred Njuguna
+### [Wilfred Njuguna](https://learn.zone01kisumu.ke/git/wnjuguna)
 ![Wilfred's Profile Photo](https://learn.zone01kisumu.ke/git/avatars/c9b7b96426b4781d5a16fef462551fb5?size=870)
 
