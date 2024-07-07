@@ -27,14 +27,13 @@ Ascii-art characters adhere to the following specifications:
 For you to use our project your have to clone the repository from gitea 
 
 ```shell
-cd ~
 git clone https://learn.zone01kisumu.ke/git/aadero/ascii-art.git
 ```
 
 once you have cloned it you go to the terminal and enter to the directory where the program is contained.
 
 ```shell
-cd ascii-art
+cd ascii-art-fs
 ```
 To run Ascii-art, use the Go command-line interface with the following syntax:
 
