@@ -146,11 +146,11 @@ o-O-o          o
 </div>
 
 ### [Clifford Otieno](https://learn.zone01kisumu.ke/git/cliffootieno)
-![Cliff's Profile Photo](https://learn.zone01kisumu.ke/git/avatars/7c3793c3fac1a5908d1646d153555890?size=870)
+<img src="https://learn.zone01kisumu.ke/git/avatars/7c3793c3fac1a5908d1646d153555890?size=870" width="200">
 
 ### [Arnold Odero](https://learn.zone01kisumu.ke/git/aadero)
-![Arnold's Profile Photo](https://learn.zone01kisumu.ke/git/avatars/3b0994024734dea36638192cb212b8f1?size=870)
+<img src="https://learn.zone01kisumu.ke/git/avatars/3b0994024734dea36638192cb212b8f1?size=870" width="200">
 
 ### [Wilfred Njuguna](https://learn.zone01kisumu.ke/git/wnjuguna)
-![Wilfred's Profile Photo](https://learn.zone01kisumu.ke/git/avatars/c9b7b96426b4781d5a16fef462551fb5?size=870)
+<img src="https://learn.zone01kisumu.ke/git/avatars/c9b7b96426b4781d5a16fef462551fb5?size=870" width="200">
 
