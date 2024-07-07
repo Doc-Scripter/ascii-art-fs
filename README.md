@@ -139,7 +139,7 @@ o-O-o          o
                                       
 ```
 
-## Contribution
+## Contributions
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
 <div style ="text-align: center; margin: 10px;">
