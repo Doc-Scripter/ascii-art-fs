@@ -41,7 +41,7 @@ func TestParagraph(t *testing.T) {
 }
 
 func read() string {
-	word, err := os.ReadFile("test.txt")
+	word, err := os.ReadFile("resources/test.txt")
 	if err != nil {
 		panic("error reading file")
 	}
@@ -81,7 +81,7 @@ func TestParagraph1(t *testing.T) {
 }
 
 func read1() string {
-	word, err := os.ReadFile("test2.txt")
+	word, err := os.ReadFile("resources/test2.txt")
 	if err != nil {
 		panic("error reading file")
 	}
@@ -123,7 +123,7 @@ func TestParagraph2(t *testing.T) {
 }
 
 func read2() string {
-	word, err := os.ReadFile("test3.txt")
+	word, err := os.ReadFile("resources/test3.txt")
 	if err != nil {
 		panic("error reading file")
 	}
@@ -163,7 +163,7 @@ func TestParagraph3(t *testing.T) {
 }
 
 func read3() string {
-	word, err := os.ReadFile("test4.txt")
+	word, err := os.ReadFile("resources/test4.txt")
 	if err != nil {
 		panic("error reading file")
 	}
