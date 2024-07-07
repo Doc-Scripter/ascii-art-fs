@@ -27,7 +27,7 @@ Ascii-art characters adhere to the following specifications:
 For you to use our project your have to clone the repository from gitea 
 
 ```shell
-git clone https://learn.zone01kisumu.ke/git/aadero/ascii-art.git
+git clone https://learn.zone01kisumu.ke/git/aadero/ascii-art/fs.git
 ```
 
 once you have cloned it you go to the terminal and enter to the directory where the program is contained.
