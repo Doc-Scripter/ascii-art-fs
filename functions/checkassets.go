@@ -19,7 +19,7 @@ func Checkfiles(s string) error {
 	case "resources/shadow.txt":
 		remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/shadow.txt"
 	default:
-		remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/shadow.txt"
+		remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/standard.txt"
 
 	}
 	// fetch the content of the remote file
