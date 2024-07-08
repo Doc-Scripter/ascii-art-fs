@@ -88,8 +88,6 @@ func read1() string {
 	return string(word)
 }
 
-
-
 var testCases2 = []struct {
 	name          string
 	expectedLines string
@@ -131,7 +129,7 @@ func read2() string {
 }
 
 var testCases3 = []struct {
-name          string
+	name          string
 	expectedLines string
 }{
 	{"hello", read3()},
