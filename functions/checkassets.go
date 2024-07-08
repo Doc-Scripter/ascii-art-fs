@@ -8,21 +8,21 @@ import (
 	"os"
 )
 
-// compares local banner files to the one in cloud
+//compares local banner files to the one in cloud
 func Checkfiles(s string) error {
-	remoteURL := ""
-	switch s {
-	case "resources/standard.txt":
-		remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/standard.txt"
-
-	case "resources/thinkertoy.txt":
-		remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/thinkertoy.txt"
-	case "resources/shadow.txt":
-		remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/shadow.txt"
-	default:
-		remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/standard.txt"
-
-	}
+	remoteURL:=""
+	switch s{
+	case "resources/text/standard.txt":
+	remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/standard.txt"
+	
+case "resources/text/thinkertoy.txt" :
+		remoteURL= "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/thinkertoy.txt"
+case "resources/text/shadow.txt"  :
+		remoteURL="https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/shadow.txt"
+default:
+	remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/standard.txt"
+	
+	}	
 	// fetch the content of the remote file
 	remoteFile, err := http.Get(remoteURL)
 	if err != nil {
