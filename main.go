@@ -20,6 +20,7 @@ func main() {
 	standardCheckSum := "e194f1033442617ab8a78e1ca63a2061f5cc07a3f05ac226ed32eb9dfd22a6bf"
 	shadowCheckSum := "26b94d0b134b77e9fd23e0360bfd81740f80fb7f6541d1d8c5d85e73ee550f73"
 	thinkertoyCheckSum := "092d0cde973bfbb02522f18e00e8612e269f53bac358bb06f060a44abd0dbc52"
+	
 
 	// if only the string to be printed is provided
 	if args == 2 {
@@ -88,9 +89,10 @@ func main() {
 			log.Fatal(err)
 		}
 		checkSum := string(fmt.Sprintf("%x", h.Sum(nil)))
+		
 		if checkSum != standardCheckSum && checkSum != thinkertoyCheckSum && checkSum != shadowCheckSum {
-			fmt.Println("File contents have been corrupted. Redownload the banner files in the resources folder")
-			// asciiArt.Checkfiles(file)
+			fmt.Println("File contents have been corrupted. Redownloading the banner file")
+			asciiArt.Checkfiles(file)
 			return
 		}
 
