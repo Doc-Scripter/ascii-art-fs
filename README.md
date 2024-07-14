@@ -122,7 +122,7 @@ Here is how you run the command;
 ```bash
 go run . "Desired string" bannerfile
 ```
-Example:
+Example: 
 ```bash
 go run . "Test run" thinkertoy
 ```
