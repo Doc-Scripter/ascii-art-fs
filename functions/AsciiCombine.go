@@ -6,7 +6,7 @@ import (
 )
 
 // Paragraph splits input paragraph into lines and prints the ascii art of each line
-func Paragraph(sent string, m map[rune][]string) {
+func AsciiCombine(sent string, m map[rune][]string) {
 	if sent == "" {
 		return
 	}
