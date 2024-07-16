@@ -18,6 +18,8 @@ func Checkfiles(s string) error {
 		remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/thinkertoy.txt"
 	case "resources/shadow.txt":
 		remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/shadow.txt"
+	case "resources/ac.txt":
+		remoteURL = "https://raw.githubusercontent.com/LuvDokta/banner/main/ac.txt"
 	default:
 		remoteURL = "https://learn.zone01kisumu.ke/git/root/public/raw/branch/master/subjects/ascii-art/standard.txt"
 	}
